@@ -1,0 +1,3 @@
+Name: Jerald G. Faustino
+GitHub Repository URL: https://github.com/jeraldfaustino/ojt-project
+Live Deployment URL:

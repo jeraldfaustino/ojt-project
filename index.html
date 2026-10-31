@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio of Jerald G. Faustino, Junior Front-End Web Developer Intern at Bulacan State University – College of Industrial Technology.">
+<title>Jerald G. Faustino | OJT Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <nav class="nav container" aria-label="Main">
+    <a class="logo" href="#top">JGF<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<!-- A. HERO -->
+<section class="hero container">
+  <div class="hero-text">
+    <p class="badge-live"><span class="dot"></span> Available Starting 2nd Semester A.Y. 2026–2027</p>
+    <h1>Jerald G. Faustino</h1>
+    <p class="role">Junior Front-End Web Developer Intern</p>
+    <p class="lead">I build clean, responsive websites and ship them fast with AI-assisted development. Looking for an OJT team where I can contribute from day one.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="assets/resume.pdf" download>Download CV / Resume</a>
+      <a class="btn btn-ghost" href="#contact">Contact / Inquire</a>
+    </div>
+    <ul class="channels" aria-label="Direct channels">
+      <li><a href="https://github.com/jeraldfaustino" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/jerald-faustino-149348448/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://mail.google.com/mail/u/0/?service=mail&flowName=GlifWebSignIn&flowEntry=AccountChooser&ec=asw-gmail-globalnav-signin#inbox">Email</a></li>
+    </ul>
+  </div>
+  <div class="hero-side">
+    <div class="photo-wrap"><img src="assets/img/profilee.jpg" alt="Portrait of Jerald G. Faustino in formal attire" width="360" height="360"></div>
+    <div class="metrics card">
+      <div class="metric-top"><span>Training hours</span><strong id="hoursLabel">0 / 500 hrs</strong></div>
+      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="500" aria-valuenow="0" aria-label="Training hours rendered"><div class="bar-fill" data-pct="0"></div></div>
+      <p class="muted">Target training hours rendered toward the OJT requirement.</p>
+    </div>
+  </div>
+</section>
+
+<!-- B. ABOUT -->
+<section id="about" class="section container">
+  <h2>About me</h2>
+  <div class="grid-2">
+    <div>
+      <p class="summary">I'm a fourth-year student at the College of Industrial Technology who turns ideas into working, mobile-friendly web pages quickly. I stay disciplined with deadlines and document what I build. I want to help a partner company ship polished front-end features.</p>
+      <div class="card academic">
+        <h3>Academic background</h3>
+        <dl>
+          <dt>Program</dt><dd>Bachelor of Industrial Technology</dd>
+          <dt>Major</dt><dd>Computer Technology</dd>
+          <dt>Institution</dt><dd>Bulacan State University – College of Industrial Technology</dd>
+          <dt>Expected graduation</dt><dd>2027</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Core competencies</h3>
+      <ul class="check">
+        <li>Rapid AI-assisted prototyping</li>
+        <li>Responsive debugging across devices</li>
+        <li>Clear technical documentation</li>
+        <li>Version control basics with Git</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- C. SKILLS -->
+<section id="skills" class="section container">
+  <h2>Technical skills</h2>
+  <div class="filters" role="tablist" aria-label="Filter skills">
+    <button class="chip active" data-filter="all" role="tab" aria-selected="true">All</button>
+    <button class="chip" data-filter="web" role="tab" aria-selected="false">Front-end</button>
+    <button class="chip" data-filter="tools" role="tab" aria-selected="false">Tools</button>
+    <button class="chip" data-filter="design" role="tab" aria-selected="false">Design</button>
+    <button class="chip" data-filter="industrial" role="tab" aria-selected="false">Industrial</button>
+  </div>
+  <div class="skills-grid">
+    <article class="card skill" data-cat="web"><h3>Front-end &amp; core web</h3>
+      <div class="tags"><span>HTML5</span><span>CSS3</span><span>Flexbox</span><span>CSS Grid</span><span>Responsive Design</span><span>Basic JavaScript</span></div></article>
+    <article class="card skill" data-cat="tools"><h3>Tools &amp; platforms</h3>
+      <div class="tags"><span>Git / GitHub</span><span>VS Code</span><span>Claude</span><span>ChatGPT</span><span>Cursor</span><span>GitHub Copilot</span></div></article>
+    <article class="card skill" data-cat="design"><h3>Design &amp; digital media</h3>
+      <div class="tags"><span>Layout prototyping</span><span>UI design systems</span><span>Asset optimization</span><span>Vector icons</span></div></article>
+    <article class="card skill" data-cat="industrial"><h3>Industrial &amp; technical foundations</h3>
+      <div class="tags"><span>Hardware servicing</span><span>Network configuration</span><span>Technical interface design</span></div></article>
+  </div>
+</section>
+
+<!-- D. PROJECTS -->
+<section id="projects" class="section container">
+  <h2>Featured projects</h2>
+  <div class="projects">
+    <article class="card project">
+      <img src="assets/img/projects/project.jpg" alt="Screenshot of the Executive Disciplinary Dashboard showing student offense overview" loading="lazy" width="640" height="360">
+      <div class="project-body">
+        <h3>Student Violation and Record Monitoring: Admin Dashboard</h3>
+        <p class="proj-role">Front-End Web Developer</p>
+        <p>Tracking student violations by hand made it hard to apply sanctions fairly. This system lets administrators insert, manage and monitor violation records, with sanctions based on severity and on how many times a student repeats the same violation. I built the front-end and prototyped the wireframes in Figma.</p>
+        <div class="tags"><span>PHP</span><span>Java</span><span>Figma</span></div>
+        <div class="links"><a href="https://github.com/your-username/student-violation-monitoring" target="_blank" rel="noopener">Source Code</a><a href="https://your-live-demo-link.example" target="_blank" rel="noopener">Live Demo</a></div>
+      </div>
+    </article>
+    <article class="card project">
+      <img src="assets/img/projects/projectt.jpg" alt="Screenshot of the Faculty Disciplinary Dashboard showing recent incident logs" loading="lazy" width="640" height="360">
+      <div class="project-body">
+        <h3>Student Violation and Record Monitoring: Faculty Dashboard</h3>
+        <p class="proj-role">Front-End Web Developer</p>
+        <p>Faculty needed a quick way to file incidents and follow their status. This portal lets them record violations, search and filter incident logs, and see the prescribed sanction and review status for each case. I designed and coded the front-end screens, with Figma wireframes.</p>
+        <div class="tags"><span>PHP</span><span>Java</span><span>Figma</span></div>
+        <div class="links"><a href="https://github.com/your-username/student-violation-monitoring" target="_blank" rel="noopener">Source Code</a><a href="https://your-live-demo-link.example" target="_blank" rel="noopener">Live Demo</a></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- E. CONTACT -->
+<section id="contact" class="section container">
+  <div class="contact card">
+    <h2>Interested in bringing me onto your team for OJT? Let's connect.</h2>
+    <a class="btn btn-primary btn-lg" href="mailto:jerald.faustino@example.com?subject=OJT%20Inquiry">Email me</a>
+    <ul class="details">
+      <li><span>Email</span><a href="https://mail.google.com/mail/u/0/?service=mail&flowName=GlifWebSignIn&flowEntry=AccountChooser&ec=asw-gmail-globalnav-signin#inbox">Jerald Faustino</a> <button class="copy" id="copyBtn" type="button">Copy</button></li>
+      <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/jerald-faustino-149348448/" target="_blank" rel="noopener">Jerald Faustino</a></li>
+      <li><span>GitHub</span><a href="https://github.com/jeraldfaustino" target="_blank" rel="noopener">Jerald Faustino</a></li>
+      <li><span>Preferred setup</span>Malolos / Bulacan / Metro Manila / Remote</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<!-- F. FOOTER -->
+<footer class="footer">
+  <div class="container foot">
+    <div>
+      <p>© 2026 Jerald G. Faustino. All Rights Reserved.</p>
+      <p class="muted">College of Industrial Technology, Bulacan State University</p>
+    </div>
+    <a class="to-top" href="#top">Back to top ↑</a>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
